@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import micraImage from "@/assets/micra-rtu-unit.png";
+import micraImage from "@/assets/school.png";
 
 export const Hero = () => {
   const scrollToSignup = () => {
@@ -52,11 +52,11 @@ export const Hero = () => {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border">
-              <img 
-                src={micraImage} 
-                alt="Helix Earth MICRA dehumidifier unit installed on RTU"
+          <div className="relative flex justify-center">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border max-w-[420px] w-full">
+              <img
+                src={micraImage}
+                alt="Futuristic Helix MICRA system blending advanced HVAC tech with greenery"
                 className="w-full h-auto"
               />
             </div>

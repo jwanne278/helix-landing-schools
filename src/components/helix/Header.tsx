@@ -9,7 +9,7 @@ export const Header = () => {
             <div className="text-primary-foreground font-bold text-xl">H</div>
           </div>
           <div>
-            <h1 className="text-xl font-bold text-foreground">Helix Earth Technologies</h1>
+            <h1 className="text-xl font-bold text-foreground">Helix Earth</h1>
             <p className="text-xs text-muted-foreground">MICRA™ Dehumidification Systems</p>
           </div>
         </div>
@@ -25,6 +25,9 @@ export const Header = () => {
           </a>
           <a href="#contact" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
             Contact
+          </a>
+          <a href="#Our Story" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            Our Story
           </a>
         </nav>
       </div>

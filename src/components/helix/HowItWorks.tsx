@@ -1,4 +1,4 @@
-import micraDoasImage from "@/assets/micra-doas-install.png";
+import micraDoasImage from "@/assets/thought_bubble.png";
 import { CheckCircle } from "lucide-react";
 
 export const HowItWorks = () => {
@@ -12,7 +12,7 @@ export const HowItWorks = () => {
   ];
 
   return (
-    <section id="how-it-works" className="py-20 bg-secondary">
+    <section id="how-it-works" className="py-20" style={{ backgroundColor: "#D8F0E3" }}>
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -34,7 +34,7 @@ export const HowItWorks = () => {
               ))}
             </div>
 
-            <div className="p-6 rounded-xl bg-primary/10 border border-primary/20">
+            <div className="p-6 rounded-xl bg-[rgba(255,239,170,0.4)] border border-[#F6DA7A]/60">
               <h3 className="text-lg font-bold text-foreground mb-2">
                 No Heavy Lifting Required
               </h3>
@@ -46,9 +46,9 @@ export const HowItWorks = () => {
 
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-border">
-              <img 
-                src={micraDoasImage} 
-                alt="Two 10 Ton Helix Earth MICRA Devices on one 20 ton DOAS"
+              <img
+                src={micraDoasImage}
+                alt="Helix Earth system concept illustration"
                 className="w-full h-auto"
               />
             </div>

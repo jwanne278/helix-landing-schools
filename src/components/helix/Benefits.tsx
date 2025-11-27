@@ -41,11 +41,11 @@ export const Benefits = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="p-8 rounded-xl bg-card border border-border hover:shadow-lg transition-all duration-300 hover:scale-105"
+              className="w-full max-w-sm p-8 rounded-xl bg-card border border-border hover:shadow-lg transition-all duration-300 hover:scale-105"
             >
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-6 text-primary">
                 {benefit.icon}

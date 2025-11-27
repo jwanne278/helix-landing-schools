@@ -6,6 +6,8 @@ import { HowItWorks } from "@/components/helix/HowItWorks";
 import { TechnicalSpecs } from "@/components/helix/TechnicalSpecs";
 import { SignUpCTA } from "@/components/helix/SignUpCTA";
 import { Footer } from "@/components/helix/Footer";
+import { PainPoints } from "@/components/helix/PainPoints";
+import { SimpleInstall } from "@/components/helix/SimpleInstall";
 
 const Index = () => {
   const structuredData = {
@@ -36,6 +38,8 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <PainPoints />
+        <SimpleInstall />
         <Benefits />
         <HowItWorks />
         <TechnicalSpecs />
