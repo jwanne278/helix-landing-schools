@@ -43,7 +43,7 @@ export const SignUpCTA = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              Coming Soon to Schools
+              Coming to Schools Soon!
             </h2>
             <p className="text-xl text-muted-foreground">
               We're working fast to bring MICRA™ units to market. Sign up below to stay informed about our progress and be the first to know when units become available.

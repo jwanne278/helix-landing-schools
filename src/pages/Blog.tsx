@@ -18,7 +18,7 @@ const Blog = () => {
       <section className="py-32 bg-brand-light flex items-center justify-center min-h-[60vh]">
         <div className="container mx-auto px-5 max-w-6xl text-center">
           <h1 className="text-4xl md:text-6xl font-extrabold text-brand-primary font-poppins">
-            Coming to Schools Soon
+            Coming Soon
           </h1>
         </div>
       </section>
